@@ -37,8 +37,10 @@ def get_savedata_dir():
     marketname = "kdata-ai"
 
     if platform.system() == "Windows":
+        # Win10 is: C:\Users\xxx\AppData\Roaming\sunquant\kdata-ai
         sd_path = os.path.join(os.getenv("appdata"), __SaveDataPathName__, marketname)
     else:
+        # Linux is: ~/sunquant/kdata-ai
         sd_path = os.path.join(os.environ['HOME'], __SaveDataPathName__, marketname)
     if not os.path.exists(sd_path):
         os.makedirs(sd_path)
