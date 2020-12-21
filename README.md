@@ -4,7 +4,7 @@ The historical K-line data used in this program is from Chinese Stock Market.
 
 Author email: szy@tsinghua.org.cn
 
-使用深度学习算法，根据历史K数预测未来走势的计算
+使用深度学习算法，根据历史K线数据预测未来走势的计算
 
 （一）结论
 
@@ -49,17 +49,21 @@ Author email: szy@tsinghua.org.cn
             pip install jupyterlab
             pip install notebook
             jupyter notebook
+
         2. 科学套件（Anaconda已默认安装）
             OpenBLAS，在CPU上运行快速张量运算，openblas.net（非必需）
             Numpy, sciPy Matplotlib
             HDF5，（h5py）， 高效保存数值数据大文件
+
         3. GPU支持，nvidia.com（如果已有英伟达GPU硬件）
             CUDA：https://developer.nvidia.com/cuda-downloads
             cuDNN：https://developer.nvidia.com/cudnn
             下载后的cuDNN文件复制到CUDA对应目录下即可。
+
         4. 安装TensorFlow
             pip install tensorflow
             pip install tensorflow-gpu （如果有GPU硬件和开发套件）
+
         5. 安装Keras
             Graphviz 和 pydot-ng， 可视化Keras模型
             pip install keras
