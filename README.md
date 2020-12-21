@@ -4,7 +4,7 @@ The historical K-line data used in this program is from Chinese Stock Market.
 
 Author email: szy@tsinghua.org.cn
 
-人工智能根据历史K数预测未来走势的计算
+使用深度学习算法，根据历史K数预测未来走势的计算
 
 （一）结论
 
